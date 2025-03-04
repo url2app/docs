@@ -24,4 +24,13 @@ To insert an application into the menu/launcher of your os, U2A must create some
 
 **Windows**: U2A stores shortcuts into `~\AppData\Microsoft\Windows\Start Menu/Programs\U2A Apps\`
 **Linux**: U2A stores desktop entries into `~/.local/share/applications/`
-**MacO**: U2A stores applications into `~/Applications/U2A Apps/`
+**MacOs**: U2A stores applications into `~/Applications/U2A Apps/`
+
+### Application files
+U2A has a specific folder to store application files, like local storage or cache.
+
+> [!NOTE] Those files aren't automaticly deleted by u2a. You have to remove them manually if you want them off.
+
+**Windows**: Files are stored into `~\AppData\Roaming\u2a-*\`
+**Linux**: Files are stored into `~/.config/u2a-*/`
+**Windows**: Files are stored into `~/Library/Application Support/u2a-*/`
