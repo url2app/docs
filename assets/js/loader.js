@@ -17,20 +17,16 @@ let currentPage = null;
 let pages = {};
 let pagesArray = [];
 
-// Personnalisation du renderer Markdown pour les callouts GitHub
 const renderer = new marked.Renderer();
 const originalBlockquote = renderer.blockquote;
 
-// Remplacer le rendu des blockquotes pour supporter les callouts
 renderer.blockquote = function(quote) {
-    // Détection des callouts GitHub format > [!TYPE]
     const calloutMatch = quote.match(/<p>\[!(INFO|NOTE|TIP|IMPORTANT|WARNING|CAUTION|DANGER)\](.*?)(?:<\/p>)?/i);
     
     if (calloutMatch) {
         const type = calloutMatch[1].toLowerCase();
         let content = quote.replace(/<p>\[!.*?\](.*?)(?:<\/p>)?/i, '$1');
         
-        // Choisir l'icône appropriée selon le type
         let icon = '';
         switch (type) {
             case 'info':
@@ -57,7 +53,6 @@ renderer.blockquote = function(quote) {
         return `<div class="callout callout-${type}">${icon}<div class="callout-content">${content}</div></div>`;
     }
     
-    // Sinon, utiliser le rendu blockquote par défaut
     return originalBlockquote.call(this, quote);
 };
 
