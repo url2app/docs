@@ -62,27 +62,33 @@
       "category": "Technical details"
     },
     {
+      "id": "sudo",
+      "title": "Running as Root",
+      "file": "11-sudo.md",
+      "category": "Technical details"
+    },
+    {
       "id": "file-structure",
       "title": "File Structure",
-      "file": "11-file-structure.md",
+      "file": "12-file-structure.md",
       "category": "Technical details"
     },
     {
       "id": "common-issues",
       "title": "Common issues",
-      "file": "12-common-issues.md",
+      "file": "13-common-issues.md",
       "category": "Technical details"
     },
     {
       "id": "troubleshooting",
       "title": "Troubleshooting",
-      "file": "13-troubleshooting.md",
+      "file": "14-troubleshooting.md",
       "category": "Technical details"
     },
     {
       "id": "livecreator-linux",
       "title": "Linux",
-      "file": "14-lc-linux.md",
+      "file": "15-lc-linux.md",
       "category": "LiveCreator"
     }
   ]
