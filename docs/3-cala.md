@@ -28,6 +28,7 @@ U2A allows you to personalize your installation, with those command parameters:
 `--name <name>`: Set the name of the app (eg `Claude` instead of `claude.ai`)  
 `--witdh <int>`: Set the witdh of the app window that will be created. (Default `1200`)  
 `--height <int>`: Set the height of the app window that will be created. (Default `800`)
+`--icon <path>`: Use a custom .ico file instead of the default / fetched one
 
 Let's try to personalize [Claude.ai](https://claude.ai):
 
