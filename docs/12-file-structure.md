@@ -22,7 +22,7 @@ U2A stores all the content of local webapps and logs files into the `~/.u2a` fol
 ### Menu/Launcher files
 To insert an application into the menu/launcher of your os, U2A must create some specific files on your os.
 
-**Windows**: U2A stores shortcuts into `~\AppData\Microsoft\Windows\Start Menu/Programs\U2A Apps\`
+**Windows**: U2A stores shortcuts into `~\AppData\Roaming\Microsoft\Windows\Start Menu/Programs\U2A Apps\`
 **Linux**: U2A stores desktop entries into `~/.local/share/applications/`
 **MacOs**: U2A stores applications into `~/Applications/U2A Apps/`
 
