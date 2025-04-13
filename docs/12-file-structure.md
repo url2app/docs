@@ -12,12 +12,16 @@ U2A stores all the content of local webapps and logs files into the `~/.u2a` fol
 ```shell
 ├── apps/
 ├── db.json
-└── logs/
+├── logs/
+├── postinstall.json
+└── settings.json
 ```
 
 `apps` contains all favicons and webapps datas.
 `logs` contains all the logs for the create, list, remove and favicon features.
 `db.json` contains all the datas of currently installed applications
+`postinstall.json` is for the postinstall script, dont touch it please, or `settings.json` will be resetted
+`settings.json` contains different settings, configurable with the `configure` command
 
 ### Menu/Launcher files
 To insert an application into the menu/launcher of your os, U2A must create some specific files on your os.
