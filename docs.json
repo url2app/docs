@@ -14,81 +14,87 @@
       "category": "Getting Started"
     },
     {
+      "id": "configure",
+      "title": "Configure settings",
+      "file": "3-configure.md",
+      "category": "Getting Started"
+    },
+    {
       "id": "create-local-apps",
       "title": "Creating a local app",
-      "file": "3-cala.md",
+      "file": "4-cala.md",
       "category": "Local installation"
     },
     {
       "id": "list-local-apps",
       "title": "Listing all your local apps",
-      "file": "4-layla.md",
+      "file": "5-layla.md",
       "category": "Local installation"
     },
     {
       "id": "delete-local-apps",
       "title": "Deleting a local app",
-      "file": "5-dala.md",
+      "file": "6-dala.md",
       "category": "Local installation"
     },
     {
       "id": "create-executable",
       "title": "Creating an executable",
-      "file": "6-cae.md",
+      "file": "7-cae.md",
       "category": "Executables & Setup"
     },
     {
       "id": "create-setup",
       "title": "Creating a setup file",
-      "file": "7-casf.md",
+      "file": "8-casf.md",
       "category": "Executables & Setup"
     },
     {
       "id": "installing-setup",
       "title": "Installing with a setup file",
-      "file": "8-iwasf.md",
+      "file": "9-iwasf.md",
       "category": "Executables & Setup"
     },
     {
       "id": "uninstall-setup",
       "title": "Uninstalling a setup file app",
-      "file": "9-uasfa.md",
+      "file": "10-uasfa.md",
       "category": "Executables & Setup"
     },
     {
       "id": "tech-intro",
       "title": "Introduction",
-      "file": "10-tech-intro.md",
+      "file": "11-tech-intro.md",
       "category": "Technical details"
     },
     {
       "id": "sudo",
       "title": "Running as Root",
-      "file": "11-sudo.md",
+      "file": "12-sudo.md",
       "category": "Technical details"
     },
     {
       "id": "file-structure",
       "title": "File Structure",
-      "file": "12-file-structure.md",
+      "file": "13-file-structure.md",
       "category": "Technical details"
     },
     {
       "id": "common-issues",
       "title": "Common issues",
-      "file": "13-common-issues.md",
+      "file": "14-common-issues.md",
       "category": "Technical details"
     },
     {
       "id": "troubleshooting",
       "title": "Troubleshooting",
-      "file": "14-troubleshooting.md",
+      "file": "15-troubleshooting.md",
       "category": "Technical details"
     },
     {
       "id": "livecreator-linux",
       "title": "Linux",
-      "file": "15-lc-linux.md",
+      "file": "16-lc-linux.md",
       "category": "LiveCreator"
     }
   ]
